@@ -40,9 +40,9 @@ const BotaoSecundarioEstilizado = styled.button`
     }
 `
 
-export const Botao = ({ children, variante = 'primaria' }) => {
+export const Botao = ({ children, variante = 'primaria', type =  "button"}) => {
     if (variante === 'primaria') {
-        return <BotaoPrimarioEstilizado>
+        return <BotaoPrimarioEstilizado type={type}>
             {children}
         </BotaoPrimarioEstilizado>
     }
