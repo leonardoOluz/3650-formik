@@ -111,7 +111,7 @@ const DadosPessoais = () => {
             <Col lg={6} md={6} sm={6}>
               <div style={{ textAlign: "right" }}>
                 {/* <Link to='/cadastro/concluido'> */}
-                <Botao>Próxima</Botao>
+                <Botao type="submit">Próxima</Botao>
                 {/* </Link> */}
               </div>
             </Col>

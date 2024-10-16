@@ -6,9 +6,7 @@ import { router } from "./router/router"
 function App() {
   return (<ProvedorTema>
     <Estilos />
-
     <RouterProvider router={router} />
-
   </ProvedorTema>)
 }
 
